@@ -1,0 +1,15 @@
+[
+	{
+		"type": "readers.sbet",
+		"filename": "C:/Users/Darren/Documents/PDAL/Test/sbet_289_kars.out"
+	},
+	{
+		"type": "filters.reprojection",
+		"in_srs": "EPSG:4269",
+		"out_srs": "+init=EPSG:4269 +geoidgrids=C:/Users/Darren/Documents/PDAL/Geoids/g2012b_conus.gtx"
+	},
+	{
+		"type": "writers.sbet",
+		"filename": "C:/Users/Darren/Documents/PDAL/Test/sbet_289_kars_ortho.out"
+	}
+]

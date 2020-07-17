@@ -1,0 +1,18 @@
+[
+	{
+		"type": "readers.sbet",
+		"filename": "C:/Users/Darren/Documents/PDAL/Test/sbet_289_kars.out"
+	},
+	{
+		"type": "filters.reprojection",
+		"in_srs": "EPSG:4269",
+		"out_srs": "+init=epsg:6342 +geoidgrids=C:/Users/Darren/Documents/PDAL/Geoids/g2012b_conus.gtx"
+	},
+	{
+		"type": "writers.text",
+		"order": "GpsTime,X,Y,Z,Roll,Pitch,Azimuth",
+		"keep_unspecified": "false",
+		"precision": 6,
+		"filename": "C:/Users/Darren/Documents/PDAL/Test/Results/sbet_289_kars_ortho.txt"
+	}
+]
