@@ -1,0 +1,16 @@
+[
+		{
+			"type": "readers.las"
+		},
+		{
+			"type": "filters.reprojection",
+			"in_srs": "EPSG:6344",
+			"out_srs": "+init=epsg:6344 +geoidgrids=C:/Users/Darren/Documents/PDAL/Geoids/g2012bu0.gtx"
+		},
+		{
+			"type": "writers.las",
+			"forward": "all",
+			"a_srs": "EPSG:6344+5703",
+			"system_id": "Optech_Titan"
+		}
+]
