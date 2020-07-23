@@ -1,0 +1,17 @@
+[
+	{
+		"type": "readers.las"
+	},
+	{
+		"type": "filters.range",
+		"limits": "ReturnNumber[1:1]"
+	},
+	{
+		"type": "writers.gdal",
+		"dimension": "intensity",
+		"output_type": "idw",
+		"resolution": 0.5,
+		"radius": 5,
+		"power": 2
+	}
+]
