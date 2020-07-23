@@ -1,0 +1,11 @@
+[
+	{
+		"type": "readers.las"
+	},
+	{
+		"type": "writers.las",
+		"forward": "all",
+		"a_srs": "EPSG:6344+5703",
+		"system_id": "Optech_Titan"
+	}
+]
