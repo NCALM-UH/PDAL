@@ -1,0 +1,13 @@
+[
+	{
+		"type": "readers.las"
+	},
+	{
+		"type": "filters.sample",
+		"radius": "1"
+	},
+	{
+		"type": "writers.las",
+		"forward": "all"
+	}
+]

@@ -1,0 +1,13 @@
+[
+	{
+		"type": "readers.las"
+	},
+	{
+		"type": "filters.voxelcentroidnearestneighbor",
+		"cell": "1"
+	},
+	{
+		"type": "writers.las",
+		"forward": "all"
+	}
+]
