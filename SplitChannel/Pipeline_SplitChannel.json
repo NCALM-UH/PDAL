@@ -1,0 +1,19 @@
+[
+	{
+		"type": "readers.las"
+	},
+
+	{
+		"type": "filters.range"
+	},
+	{
+		"type": "filters.ferry",
+		"dimensions": "UserData => ScanChannel"
+	},
+	{
+		"type": "writers.las",
+		"forward": "all",
+		"a_srs": "EPSG:6344",
+		"system_id": "Optech_Titan"
+	}
+]
