@@ -1,0 +1,10 @@
+[
+	{
+		"type": "readers.las"
+	},
+	{
+		"type": "filters.stats",
+		"dimensions": "ReturnNumber, classification",
+		"count": "ReturnNumber, classification"
+	}
+]
