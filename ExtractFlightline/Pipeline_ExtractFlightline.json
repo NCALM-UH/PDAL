@@ -1,0 +1,13 @@
+[
+	{
+		"type": "readers.las"
+	},
+	{
+		"type": "filters.range",
+		"limits": "PointSourceID[3:5],PointSourceID[12:14]"
+	},
+	{
+		"type": "writers.las",
+		"forward": "all"
+	}
+]
